@@ -5,7 +5,7 @@ from chains import Chain
 from utils import clean_text
 
 # Load the portfolio DataFrame
-portfolio = pd.read_csv(r"C:\Users\Asus\Documents\Projects\AI-ML\app\resources\my_portfolio.csv")
+portfolio = pd.read_csv("resources/my_portfolio.csv")
 
 
 def create_streamlit_app(llm, portfolio_df, clean_text):
